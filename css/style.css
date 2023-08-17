@@ -1,0 +1,345 @@
+/* Import fonts */
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600;700&family=Caprasimo&family=Indie+Flower&family=Lilita+One&family=Russo+One&family=Source+Code+Pro&family=Ubuntu+Condensed&family=Ysabeau+Infant&display=swap');
+
+
+
+
+/* All */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+body {
+    background: #29272a;
+}
+/* Header */
+header {
+    width: 100%;
+    height: 80px;
+    position: relative;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 80px;
+    background: #29272a;
+}
+header .home {
+    text-decoration: none;
+    font-size: 40px;
+    letter-spacing: 3px;
+    font-family: 'Lilita One', cursive;
+    color: #80e100;
+    -webkit-text-stroke: 3px #000;
+    cursor: pointer;
+    margin: 0;
+}
+header nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+header nav ul li {
+    margin: 0px 20px;
+}
+header nav ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Belanosima', sans-serif;
+    color: #fff;
+}
+header nav ul li:hover a{
+    color: #80e100;
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: #fff;
+}
+.hr-content-header {
+    position: absolute;
+    top: 80;
+    left: 0;
+    right: 0;
+    width: 95%;
+    height: 5px;
+    margin: auto;
+    background: #fff;
+    border: 1px solid #000;
+    z-index: 200;
+}
+
+
+/* Content - Home */
+.content-home {
+    position: relative;
+    width: 100%;
+    padding: 40px;
+    background: #29272a;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content-home .content-home-center-back {
+    width: 40%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.content-home .content-home-center-back .content-home-center-back-div {
+    width: 130px;
+    height: 130px;
+    margin: 10px;
+    background: #1e1d1f;
+}
+.content-home .content-home-center-back .content-home-center-back-div:hover {
+    background: #80e100;
+    -webkit-box-shadow: 0px 0px 29px 12px #80e100;
+    -moz-box-shadow: 0px 0px 29px 12px #80e100;
+    box-shadow: 0px 0px 29px 12px #80e100;
+}
+.content-home .content-home-center-forward {
+    width: 60%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.content-home .content-home-center-forward h2{
+    text-align: start;
+    font-size: 35px;
+    font-family: 'Lilita One', cursive;
+    color: #fff;
+    -webkit-text-stroke: 3px #000;
+    transform: rotate(-10deg);
+    margin: 40px auto;
+}
+.content-home .content-home-center-forward p {
+    text-align: center;
+    font-size: 60px;
+    color: #fff;
+    -webkit-text-stroke: 3px #000;
+    font-family: 'Russo One', sans-serif;
+    padding: 10px 60px;
+}
+.content-home .content-home-center-forward p .htb-span {
+    -webkit-text-stroke: 2px #96e100;
+    color: transparent;
+    cursor: pointer;
+}
+.content-home .content-home-center-forward p .htb-span:hover {
+    color: #96e100;
+    -webkit-text-stroke: 3px #000;
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: #fff;
+}
+.content-home .content-home-center-forward p .text-span {
+    -webkit-text-stroke: 2px #fff;
+    color: transparent;
+    cursor: pointer;
+}
+.content-home .content-home-center-forward p .text-span:hover {
+    color: #fff;
+    -webkit-text-stroke: 3px #000;
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: #80e100;
+}
+
+/* Content - Main */
+.content-writeups {
+    position: relative;
+    width: 100%;
+    padding: 40px;
+    background: #80e100;
+    margin-bottom: 100vh;
+}
+.content-writeups h3 {
+    position: absolute;
+    top: 60px;
+    left: 60px;
+    font-family: 'Lilita One', cursive;
+    font-size: 60px;
+    color: #fff;
+    -webkit-text-stroke: 3px #000;
+}
+.content-writeups .content-writeups-posts {
+    width: 100%;
+    height: 100%;
+    padding-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.content-writeups .content-writeups-posts .post {
+    width: 500px;
+    height: 400px;
+    background: transparent;
+    border: 5px solid #fff;
+    margin: 20px;
+    border-radius: 10px;
+}
+.content-writeups .content-writeups-posts .post .hr {
+    width: 100%;
+    height: 5px;
+    background: #fff;
+    margin: 30px auto;
+}
+.content-writeups .content-writeups-posts .post h4 {
+    padding-left: 20px;
+    font-family: 'Lilita One', cursive;
+    font-size: 40px;
+    color: #fff;
+    -webkit-text-stroke: 3px #000;
+}
+.content-writeups .content-writeups-posts .post p {
+    font-family: 'Lilita One', cursive;
+    font-size: 25px;
+    color: #fff;
+    padding: 0px 20px;
+    -webkit-text-stroke: 1px #000;
+}
+.content-writeups .content-writeups-posts .post a {
+    display: block;
+    padding: 0px 20px;
+    text-align: end;
+    font-family: 'Lilita One', cursive;
+    font-size: 25px;
+    color: #fff;
+    -webkit-text-stroke: 1px #000;
+}
+.content-writeups .content-writeups-posts .post a:hover {
+    color: #000;
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: #fff;
+}
+.content-writeups .content-writeups-posts .btn-writeups {
+    margin: 20px;
+    padding: 10px;
+    border: 3px solid #fff;
+    -webkit-box-shadow: 10px -10px 0px 0px #fff;
+    -moz-box-shadow: 10px -10px 0px 0px #fff;
+    box-shadow: 10px -10px 0px 0px #fff;
+    transition: 500ms;
+}
+.content-writeups .content-writeups-posts .btn-writeups:hover {
+    -webkit-box-shadow: 0px 0px 0px 0px #fff;
+    -moz-box-shadow: 0px 0px 0px 0px #fff;
+    box-shadow: 0px 0px 0px 0px #fff;
+}
+.content-writeups .content-writeups-posts .btn-writeups button {
+    width: 300px;
+    height: 40px;
+    border: none;
+    background: none;
+    font-family: 'Lilita One', cursive;
+    font-size: 30px;
+    color: #fff;
+    -webkit-text-stroke: 1px #000;
+}
+
+
+
+/* Content - About */
+.content-about {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    padding: 100px;
+    background: #1e1d1f;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: -100;
+}
+.content-about h3 {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    text-align: start;
+    font-size: 50px;
+    font-family: 'Lilita One', cursive;
+    color: #fff;
+    transform: rotate(-10deg);
+    margin: 40px auto;
+    -webkit-text-stroke: 3px #000;
+}
+.content-about .content-about-main {
+    width: 100%;
+    height: 100%;
+    background: #80e100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content-about .content-about-main p {
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 25px;
+    color: #fff;
+    font-family: 'Russo One', sans-serif;
+    padding: 100px 100px;
+    -webkit-text-stroke: 1px #000;
+}
+.content-about .content-about-main .networks {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.content-about .content-about-main .networks img {
+    width: 200px;
+    border-radius: 50%;
+}
+.content-about .content-about-main .networks a {
+    margin: 10px;
+    padding: 5px;
+    letter-spacing: 2px;
+    font-size: 20px;
+    color: #fff;
+    font-family: 'Russo One', sans-serif;
+    -webkit-text-stroke: 1px #000;
+}
+.content-about .content-about-main .networks a:hover i{
+    background: #fff;
+    border: 3px solid #000;
+}
+.content-about .content-about-main .networks a i {
+    font-size: 40px;
+    border-radius: 10px;
+    color: #fff;
+    -webkit-text-stroke: 1px #000;
+}
+
+
+
+
+
+
+/* Specials */
+
+/* Content - Header */
+.active {
+    color: #80e100;
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: #fff;
+}
+.inactive {
+    color: #fff;
+    text-decoration: none;
+}

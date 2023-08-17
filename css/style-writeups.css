@@ -1,0 +1,126 @@
+
+
+
+/* Content - Main - WriteUps */ 
+.content-main-writeups {
+    width: 100%;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background: #29272a;
+}
+.content-main-writeups .post {
+    width: 400px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.content-main-writeups .post img {
+    width: 100%;
+    border-radius: 10px;
+}
+.content-main-writeups .post .date-hr {
+    width: 100%;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content-main-writeups .post .date-hr p {
+    text-align: center;
+    width: 40%;
+    font-family: 'Lilita One', cursive;
+    font-size: 20px;
+    color: #fff;
+    -webkit-text-stroke: 1px #000;
+    margin-bottom: 0px;
+}
+.content-main-writeups .post .date-hr .hr-div {
+    width: 60%;
+    height: 3px;
+    background: #80e100;
+}
+.content-main-writeups .post .title-post {
+    width: 100%;
+    text-align: start;
+    text-decoration: none;
+    font-family: 'Lilita One', cursive;
+    font-size: 35px;
+    color: #fff;
+    -webkit-text-stroke: 3px #80e100;
+}
+.content-main-writeups .post .title-post:hover {
+    text-decoration: overline;
+    text-decoration-color: #80e100;
+}
+.content-main-writeups .post .text-post {
+    text-align: start;
+    width: 100%;
+    font-family: 'Lilita One', cursive;
+    font-size: 20px;
+    color: #fff;
+    -webkit-text-stroke: 1px #000;
+}
+.content-main-writeups .post .read-post-hr {
+    width: 100%;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content-main-writeups .post .read-post-hr .hr-div {
+    width: 60%;
+    height: 3px;
+    background: #80e100;
+}
+.content-main-writeups .post .read-post-hr a {
+    text-align: center;
+    width: 40%;
+    font-family: 'Lilita One', cursive;
+    font-size: 20px;
+    color: #fff;
+    -webkit-text-stroke: 1px #000;
+}
+.content-main-writeups .post .read-post-hr a:hover {
+    color: #000;
+}
+
+
+
+
+
+/* Content - Footer */
+.content-footer {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #29272a;
+}
+.content-footer .hr-content-footer {
+    width: 95%;
+    height: 5px;
+    background: #fff;
+    border: 1px solid #000;
+    margin-bottom: 50px;
+}
+.content-footer p {
+    text-align: center;
+    font-family: 'Lilita One', cursive;
+    font-size: 20px;
+    color: #fff;
+    -webkit-text-stroke: 1px #000;
+    margin-bottom: 0px;
+}
+.content-footer p span {
+    text-align: center;
+    font-family: 'Lilita One', cursive;
+    font-size: 20px;
+    color: #80e100;
+    -webkit-text-stroke: 1px #000;
+}

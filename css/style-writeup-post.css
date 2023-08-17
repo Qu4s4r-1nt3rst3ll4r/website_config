@@ -1,0 +1,159 @@
+/* All */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* Content - Main - Writeup */
+.content-main-writeup {
+    width: 100%;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #29272a;
+}
+.content-main-writeup .content-tittle {
+    position: relative;
+    width: 50%;
+    height: 400px;
+    margin: 30px auto;
+    border: 3px solid #fff;
+    -webkit-box-shadow: 10px 10px 0px 0px #fff;
+    -moz-box-shadow: 10px 10px 0px 0px #fff;
+    box-shadow: 10px 10px 0px 0px #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content-main-writeup .content-tittle .content-rights-reserved {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 100;
+}
+.content-main-writeup .content-tittle .content-rights-reserved a {
+    display: block;
+    text-align: end;
+    padding-right: 10px;
+    font-family: 'Lilita One', cursive;
+    font-size: 20px;
+    color: #fff;
+    margin: 20px auto;
+    -webkit-text-stroke: 1px #000;
+}
+.content-main-writeup .content-tittle .content-tittle-img-background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.content-main-writeup .content-tittle h2 {
+    width: 50%;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Lilita One', cursive;
+    font-size: 50px;
+    padding-left: 20px;
+    color: #fff;
+    -webkit-text-stroke: 3px #000;
+    z-index: 100;
+}
+.content-main-writeup .content-tittle .content-tittle-icons {
+    position: absolute;
+    top: 120px;
+    right: 250px;
+    width: 80px;
+    height: 350px;
+    background: #80e100;
+    border: 3px solid #fff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    z-index: 100;
+}
+.content-main-writeup .content-tittle .content-tittle-icons i {
+    color: #fff;
+    font-size: 30px;
+    margin: 20px auto;
+    -webkit-text-stroke: 3px #000;
+}
+
+.content-main-writeup .content-tittle .content-tittle-icons-text {
+    position: absolute;
+    top: 120px;
+    right: 10px;
+    width: 230px;
+}
+.content-main-writeup .content-tittle .content-tittle-icons-text a {
+    display: block;
+    text-align: start;
+    font-family: 'Lilita One', cursive;
+    font-size: 30px;
+    color: #fff;
+    margin: 20px auto;
+    -webkit-text-stroke: 2px #000;
+}
+.content-main-writeup .content-tittle .content-tittle-icons-text p {
+    text-align: start;
+    margin: 20px auto;
+    font-family: 'Lilita One', cursive;
+    font-size: 30px;
+    color: #fff;
+    -webkit-text-stroke: 2px #000;
+}
+
+
+.content-main-writeup .content-writeup-machine {
+    position: relative;
+    width: 50%;
+    margin: 30px auto;
+    padding: 20px;
+}
+.content-main-writeup .content-writeup-machine .content-writeup-machine-text {
+    text-align: start;
+    margin: 20px auto;
+    font-family: 'Ysabeau Infant', sans-serif;
+    font-size: 25px;
+    color: #fff;
+}
+.content-main-writeup .content-writeup-machine .content-writeup-machine-img {
+    position: relative;
+    margin: 30px auto;
+    width: 100%;
+}
+.content-main-writeup .content-writeup-machine .code-space {
+    width: 100%;
+    padding: 20px;
+    background: #433d44;
+}
+.content-main-writeup .content-writeup-machine .code-space .content-code-space-line {
+    padding: 0px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.content-main-writeup .content-writeup-machine .code-space .content-code-space-line .code-text-number {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 16px;
+    color: #a5a5a5;
+    padding: 0px 10px 0px 5px;
+}
+.content-main-writeup .content-writeup-machine .code-space .content-code-space-line .code-text-parameter {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 16px;
+    color: #80e100;
+    padding: 0px 5px;
+}
+.content-main-writeup .content-writeup-machine .code-space .content-code-space-line .code-text-text {
+    width: 100%;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 16px;
+    color: #a5a5a5;
+    padding: 0px 5px;
+}
