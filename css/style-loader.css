@@ -1,0 +1,87 @@
+.content-loading {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #222;
+    z-index: 2000;
+    transition: all 1.2s;
+}
+.content-loading .loading {
+    display: flex;
+    align-items: flex-end;
+    margin: 0;
+    padding: 0;
+    height: 50px;
+    list-style: none;
+    gap: 2px;
+}
+.content-loading .loading .loading-sound {
+    background: #ffffff;
+    width: 8px;
+    height: 20px;
+    animation: loading 0ms -800ms linear infinite alternate;
+}
+@keyframes loading {
+    0% {
+      opacity: 0.35;
+      height: 8px;
+    }
+  
+    100% {
+      opacity: 1;
+      height: 50px;
+    }
+  }
+  
+
+  .content-loading .loading .loading-sound:nth-child(1) {
+    animation-duration: 405ms;
+  }
+  
+  .content-loading .loading .loading-sound:nth-child(2) {
+    animation-duration: 477ms;
+  }
+  
+  .content-loading .loading .loading-sound:nth-child(3) {
+    animation-duration: 456ms;
+  }
+  
+  .content-loading .loading .loading-sound:nth-child(4) {
+    animation-duration: 402ms;
+  }
+  
+  .content-loading .loading .loading-sound:nth-child(5) {
+    animation-duration: 472ms;
+  }
+  
+  .content-loading .loading .loading-sound:nth-child(6) {
+    animation-duration: 452ms;
+  }
+  
+  .content-loading .loading .loading-sound:nth-child(7) {
+    animation-duration: 415ms;
+  }
+  
+  .content-loading .loading .loading-sound:nth-child(8) {
+    animation-duration: 456ms;
+  }
+  
+  .content-loading .loading .loading-sound:nth-child(9) {
+    animation-duration: 497ms;
+  }
+  
+  .content-loading .loading .loading-sound:nth-child(10) {
+    animation-duration: 440ms;
+  }
+  .content-loading .indicator {
+    font-family: 'Lilita One', cursive;
+    font-size: 25px;
+    color: #fff;
+    padding: 0px 20px;
+    -webkit-text-stroke: 1px #000;
+  }

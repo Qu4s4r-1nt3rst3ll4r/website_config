@@ -1,5 +1,108 @@
 
-
+/* Content - Main - Information */
+.content-main-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+    width: 100%;
+    background: #29272a;
+}
+.content-main-info .content-main-info-squares {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 400px;
+    border: 3px solid #fff;
+    -webkit-box-shadow: 10px 10px 0px 0px #fff;
+    -moz-box-shadow: 10px 10px 0px 0px #fff;
+    box-shadow: 10px 10px 0px 0px #fff;
+    transition: 0.3s;
+    overflow: hidden;
+}
+.content-main-info .content-main-info-squares:hover {
+    border: 3px solid #fff;
+    -webkit-box-shadow: 0px 0px 0px 0px #fff;
+    -moz-box-shadow: 0px 0px 0px 0px #fff;
+    box-shadow: 0px 0px 0px 0px #fff;
+}
+.content-main-info .content-main-info-squares .square-left {
+    position: absolute;
+    top: 200px;
+    width: 250px;
+    height: 450px;
+    background: #80e100;
+    border: 3px solid #fff;
+    z-index: -10;
+    transform: rotate(-45deg) translateY(-60px) translateX(60px);
+}
+.content-main-info .content-main-info-squares .square-right {
+    position: absolute;
+    top: 200px;
+    width: 100px;
+    height: 400px;
+    background: #80e100;
+    border: 3px solid #fff;
+    z-index: -10;
+}
+.content-main-info .content-main-info-squares-left, .content-main-info .content-main-info-squares-right {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 100;
+}
+.content-main-info .content-main-info-squares-left .total, .content-main-info .content-main-info-squares-right .total {
+    text-align: center;
+    font-family: 'Lilita One', cursive;
+    font-size: 30px;
+    color: #fff;
+    -webkit-text-stroke: 1px #000;
+    margin-bottom: 0px;
+}
+.content-main-info .content-main-info-squares-left .htb, .content-main-info .content-main-info-squares-right .htb {
+    text-align: center;
+    font-family: 'Lilita One', cursive;
+    font-size: 30px;
+    color: #96e100;
+    -webkit-text-stroke: 1px #000;
+    margin-bottom: 0px;
+}
+.content-main-info .content-main-info-squares-left .vhub, .content-main-info .content-main-info-squares-right .vhub {
+    text-align: center;
+    font-family: 'Lilita One', cursive;
+    font-size: 30px;
+    color: #337e97;
+    -webkit-text-stroke: 1px #000;
+    margin-bottom: 0px;
+}
+.content-main-info .content-main-info-squares-left .hmv, .content-main-info .content-main-info-squares-right .hmv {
+    text-align: center;
+    font-family: 'Lilita One', cursive;
+    font-size: 30px;
+    color: #f09cb8;
+    -webkit-text-stroke: 1px #000;
+    margin-bottom: 0px;
+}
+.content-main-info .content-main-info-text {
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content-main-info .content-main-info-text h2 {
+    font-family: 'Lilita One', cursive;
+    font-size: 20rem;
+    letter-spacing: 20px;
+    color: transparent;
+    -webkit-text-stroke: 3px #fff;
+    /*text-shadow:20px 20px 0 #fff;*/
+    
+}
 
 /* Content - Main - WriteUps */ 
 .content-main-writeups {
@@ -14,6 +117,7 @@
 .content-main-writeups .post {
     width: 400px;
     padding: 10px;
+    margin: 20px;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -38,23 +142,26 @@
     -webkit-text-stroke: 1px #000;
     margin-bottom: 0px;
 }
-.content-main-writeups .post .date-hr .hr-div {
+
+
+/* Post - Vulnhub*/
+.content-main-writeups .vulnhub .date-hr .hr-div {
     width: 60%;
     height: 3px;
-    background: #80e100;
+    background: #337e97;
 }
-.content-main-writeups .post .title-post {
+.content-main-writeups .vulnhub .title-post {
     width: 100%;
     text-align: start;
     text-decoration: none;
     font-family: 'Lilita One', cursive;
     font-size: 35px;
     color: #fff;
-    -webkit-text-stroke: 3px #80e100;
+    -webkit-text-stroke: 3px #337e97;
 }
-.content-main-writeups .post .title-post:hover {
+.content-main-writeups .vulnhub .title-post:hover {
     text-decoration: overline;
-    text-decoration-color: #80e100;
+    text-decoration-color: #337e97;
 }
 .content-main-writeups .post .text-post {
     text-align: start;
@@ -71,10 +178,10 @@
     justify-content: center;
     align-items: center;
 }
-.content-main-writeups .post .read-post-hr .hr-div {
+.content-main-writeups .vulnhub .read-post-hr .hr-div {
     width: 60%;
     height: 3px;
-    background: #80e100;
+    background: #337e97;
 }
 .content-main-writeups .post .read-post-hr a {
     text-align: center;
@@ -87,8 +194,54 @@
 .content-main-writeups .post .read-post-hr a:hover {
     color: #000;
 }
-
-
+/* Post - HackTheBox */
+.content-main-writeups .hackthebox .date-hr .hr-div {
+    width: 60%;
+    height: 3px;
+    background: #96e100;
+}
+.content-main-writeups .hackthebox .title-post {
+    width: 100%;
+    text-align: start;
+    text-decoration: none;
+    font-family: 'Lilita One', cursive;
+    font-size: 35px;
+    color: #fff;
+    -webkit-text-stroke: 3px #96e100;
+}
+.content-main-writeups .hackthebox .title-post:hover {
+    text-decoration: overline;
+    text-decoration-color: #96e100;
+}
+.content-main-writeups .hackthebox .read-post-hr .hr-div {
+    width: 60%;
+    height: 3px;
+    background: #96e100;
+}
+/* Post - HackMyVm */
+.content-main-writeups .hackmyvm .date-hr .hr-div {
+    width: 60%;
+    height: 3px;
+    background: #f09cb8;
+}
+.content-main-writeups .hackmyvm .title-post {
+    width: 100%;
+    text-align: start;
+    text-decoration: none;
+    font-family: 'Lilita One', cursive;
+    font-size: 35px;
+    color: #fff;
+    -webkit-text-stroke: 3px #f09cb8;
+}
+.content-main-writeups .hackmyvm .title-post:hover {
+    text-decoration: overline;
+    text-decoration-color: #f09cb8;
+}
+.content-main-writeups .hackmyvm .read-post-hr .hr-div {
+    width: 60%;
+    height: 3px;
+    background: #f09cb8;
+}
 
 
 

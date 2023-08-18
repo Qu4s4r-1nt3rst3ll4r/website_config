@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="../../../css/style.css">
     <link rel="stylesheet" href="../../../css/style-writeups.css">
     <link rel="stylesheet" href="../../../css/style-writeup-post.css">
+    <link rel="stylesheet" href="../../../css/style-loader.css">
     <!-- Bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <!-- Font Awesome -->
@@ -49,14 +50,14 @@
         <div class="content-writeup-machine">
             <p class="content-writeup-machine-text">Hello guys, we will learn to resolved the machine Searcher of Hack The Box</p>
             <div class="code-space">
-                <div class="content-code-space-line">
-                    <span class="code-text-number">1</span>
-                    <span class="code-text-parameter">ls</span>
-                    <span class="code-text-parameter">-la</span>
-                    <span class="code-text-text">/home/kali</span>
-                </div>
+                <p class="text-code-space">ls -la /home/kali</p>
+                <button class="button-copy">copy</button>
             </div>
             <img class="content-writeup-machine-img" src="https://miro.medium.com/v2/resize:fit:640/format:webp/1*JhNdbRoOQXAUCQkAJU5zTw.png" alt="img-earth-vulnhub-writeup">
+            <div class="code-space">
+                <p class="text-code-space">arp-scan -l</p>
+                <button class="button-copy">copy</button>
+            </div>
         </div>
     </div>
     <!-- Content - Footer -->
@@ -64,6 +65,23 @@
         <div class="hr-content-footer"></div>
         <p>@2023 <span>bl4ckh0le</span>. Some rights reserved.</p>
     </footer>
+    <!-- Content - Loading-->
+    <div class="content-loading">
+        <div class="loading">
+            <div class="loading-sound"></div>
+            <div class="loading-sound"></div>
+            <div class="loading-sound"></div>
+            <div class="loading-sound"></div>
+            <div class="loading-sound"></div>
+            <div class="loading-sound"></div>
+            <div class="loading-sound"></div>
+            <div class="loading-sound"></div>
+            <div class="loading-sound"></div>
+            <div class="loading-sound"></div>
+        </div>
+        <p class="indicator">Hola! Paso por aqui otra vez para decirte que me encanta tenerte aqui!</p>
+    </div>
+
     <!-- End Body -->
     <!-- Import Javascript -->
     <!-- JQuery imported -->
@@ -71,6 +89,8 @@
     <!-- Bootstrap Imported-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
     <!-- Scripts Imported-->
-    <script src="./js/main.js"></script>
+    <script src="../../../js/copy.js"></script>
+    <script src="../../../js/code-space.js"></script>
+    <script src="../../../js/main.js"></script>
 </body>
 </html>
