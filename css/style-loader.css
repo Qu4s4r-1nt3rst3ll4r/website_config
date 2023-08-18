@@ -78,10 +78,16 @@
   .content-loading .loading .loading-sound:nth-child(10) {
     animation-duration: 440ms;
   }
+  .content-loading h3 {
+    font-family: 'Lilita One', cursive;
+    font-size: 30px;
+    color: #fff;
+    margin-top: 40px;
+    -webkit-text-stroke: 1px #000;
+  }
   .content-loading .indicator {
     font-family: 'Lilita One', cursive;
     font-size: 25px;
     color: #fff;
-    padding: 0px 20px;
     -webkit-text-stroke: 1px #000;
   }
